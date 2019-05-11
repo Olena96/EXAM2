@@ -1,0 +1,57 @@
+.team { 
+
+	&__slide { 
+		display: flex!important;
+		justify-content: space-around;
+
+	 }
+
+	
+
+	&__title {
+		
+	 }
+
+	 &__desc { 
+
+	  }
+
+	  &__slider { 
+	   }
+
+	   &__slide { 
+	   }
+
+	   	 &__text { 
+	 width: 30%;
+	 text-align: right;
+	  }
+
+	    
+	   &__sltitle {
+	   	font: 20px/25px $desc;
+		letter-spacing: 1px;
+
+	   } 
+	   &__position { 
+	   	padding-top: 7px;
+	   	font: 300 14px/25px $title;
+	   	text-transform: uppercase;
+	   	letter-spacing: 2px;
+	   	font-style: italic;
+	   	color: $darkgrey;
+	    } 
+	    &__description {
+	    	padding-top: 25px;
+	    	font: 14px/25px $desc;
+	    	color: $darkgrey;
+
+
+	}
+ }
+
+
+
+
+.container--team { 
+ }
